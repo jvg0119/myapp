@@ -1,0 +1,6 @@
+<h1>All Posts</h1>
+
+<%#= render partial: 'post', locals: {  post: @posts }, collection: @posts %>
+<%= render @posts %>
+
+<%= link_to "Create new post", new_post_path %><br>
